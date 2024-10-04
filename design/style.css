@@ -506,18 +506,7 @@ html {
   transition: all 0.3s;
 }
 .contact__area .contact__form .form .wrap__textarea .textarea {
-  width: 100%;
-  padding: 1.2rem;
-  border: none;
-  background-color: #2b2c2f;
-  border-radius: 3rem;
-  font-size: 1.5rem;
-  color: rgba(248, 248, 248, 0.5);
-  box-shadow: var(--outer-shadow);
   resize: vertical;
-}
-.contact__area .contact__form .form .wrap__textarea .textarea:focus {
-  outline: none;
 }
 .contact__area .contact .button__btn {
   padding: 2rem 0;
