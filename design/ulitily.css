@@ -1,0 +1,108 @@
+/** icon part */
+.icon {
+  width: 50px;
+  height: 50px;
+  border: 2px solid var(--primary);
+  height: 50px;
+  border-radius: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
+.icon .fa-solid {
+  position: relative;
+  top: 20%;
+  color: var(--primary);
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+/** scrollbar */
+::-webkit-scrollbar {
+  background-color: transparent;
+  width: 9px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(#00dbde, #fc00ff);
+  border-radius: 100px;
+}
+
+/** button **/
+.button .btn {
+  text-decoration: none;
+  position: absolute;
+  text-transform: uppercase;
+  background-color: #2b2c2f;
+  color: var(--primary);
+  border-radius: 100px;
+  transition: all 0.3s;
+  box-shadow: var(--outer-shadow);
+}
+.button .btn:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #2b2c2f;
+  border-radius: 100px;
+  transition: all 1s;
+  z-index: -1;
+  box-shadow: var(--outer-shadow);
+}
+.button .btn:hover::before {
+  transform: scaleX(1.4) scaleY(1.6);
+  opacity: 0;
+}
+.button .btn:hover {
+  transform: translateX(-3px);
+  box-shadow: 0 10px 20px var(--primary);
+}
+.button .btn:active {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 10px var(--primary);
+}
+
+/** color Picking **/
+:root {
+  --primary: rgb(31, 197, 134);
+  --secondary: rgba(255, 255, 255, 0.5);
+  --light: rgba(255, 255, 255, 1);
+  --outer-shadow: 3px 3px 3px #222327, -3px -3px 3px #363636;
+  --outer-shadow-0: 3px 3px 3px #222327, -3px -3px 3px #363636;
+}
+
+/** P tag */
+.pragraph {
+  color: var(--secondary);
+  font-size: 1.2rem;
+  line-height: 1.7rem;
+  font-weight: 100;
+}
+
+.deriscption {
+  color: var(--primary);
+}
+
+.container {
+  text-align: center;
+  padding: 1rem 0;
+}
+.container__subtitle {
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+.container__title {
+  font-size: 2.5rem;
+  padding-top: 0.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.button {
+  padding-top: 1.5rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
