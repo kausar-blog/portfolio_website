@@ -8,5 +8,7 @@ function myFunction() {
   var x = document.getElementById("list");
   if (x.style.display === "block") {
     x.style.display = "block";
+  } else {
+    x.style.display = "block";
   }
 }
