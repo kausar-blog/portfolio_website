@@ -17,7 +17,6 @@ html {
 
 /** nav part start */
 .navbar__area {
-  background-color: rgba(44, 45, 48, 0.1);
   padding: 1rem;
   position: sticky;
   top: 0;
