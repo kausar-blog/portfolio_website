@@ -46,7 +46,7 @@
   .about__area .about__left--img {
     max-width: 1000px;
   }
-  .about__area .about__left--img .img__sq {
+  .about__area .about__left--img .img__border--sq {
     width: 100%;
     height: 480px;
   }

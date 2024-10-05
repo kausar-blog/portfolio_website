@@ -108,15 +108,24 @@ html {
 .hero__area .hero__left {
   max-width: 600px;
   margin: 0 auto;
+  padding: 1rem;
 }
 .hero__area .hero__left--img {
   border-radius: 100%;
   max-width: 500px;
   margin: 0 auto;
-  padding: 0 5rem;
+  box-shadow: var(--outer-shadow);
+
+  padding: 0.5rem;
+}
+.hero__area .hero__left--img .img {
+  box-shadow: var(--outer-shadow);
+  padding: 0.5rem;
+  border-radius: 100%;
 }
 .hero__area .hero__left--img .img__circle {
-  border: 3px solid rgb(18, 185, 26);
+  box-shadow: var(--outer-shadow);
+  padding: 0.5rem;
   border-radius: 100%;
   width: 100%;
   height: auto;
@@ -163,10 +172,9 @@ html {
   padding: 7rem 1rem 5rem 1rem;
 }
 .about__area .about__left--img {
-  padding: 0.5rem;
   border-radius: 12px;
   max-width: 650px;
-  box-shadow: var(--outer-shadow);
+
   margin: 1rem auto;
 }
 .about__area .about__left--img .img {
@@ -175,7 +183,15 @@ html {
   border-radius: 12px;
   height: auto;
 }
-.about__area .about__left--img .img__sq {
+.about__area .about__left--img .img__border {
+  padding: 0.5rem 0.5rem 0.2rem 0.5rem;
+  border-radius: 12px;
+  box-shadow: var(--outer-shadow);
+}
+.about__area .about__left--img .img__border--sq {
+  box-shadow: var(--outer-shadow);
+  background-color: #2b2c2f;
+  padding: 0.5rem;
   border-radius: 12px;
   width: 100%;
   height: auto;
@@ -219,7 +235,7 @@ html {
 /** about part end */
 /** skills part start */
 .section__area {
-  padding: 1rem 1rem;
+  padding: 5rem 1rem 1rem 1rem;
 }
 .section__area .section__container .skills {
   padding: 1.5rem 1rem;
