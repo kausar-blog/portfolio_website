@@ -331,8 +331,10 @@ html {
 }
 .certificatates__area .certificate__area .details {
   box-shadow: var(--outer-shadow);
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   border-radius: 1.5rem;
+  display: flex;
+  padding-right: 1rem;
 }
 .certificatates__area .certificate__area .details:hover {
   box-shadow: var(--outer-shadow-0);
@@ -342,6 +344,10 @@ html {
   padding: 1rem;
   max-width: 750px;
   height: auto;
+  margin: 0 0;
+}
+.certificatates__area .certificate__area .details__title {
+  margin: auto 0;
 }
 .certificatates__area .certificate__area .details__logo--img {
   width: 100%;

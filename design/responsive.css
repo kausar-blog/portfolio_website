@@ -104,17 +104,6 @@
     text-align: left;
     gap: 1rem;
   }
-  .certificatates__area .certificate__area .details {
-    display: flex;
-    gap: 1rem;
-    padding-right: 1rem;
-  }
-  .certificatates__area .certificate__area .details__logo {
-    margin: 0 0;
-  }
-  .certificatates__area .certificate__area .details__title {
-    margin: auto 0;
-  }
   .certificatates__area .certificate__area .details__title--button {
     position: absolute;
     padding-left: 4.5rem;
