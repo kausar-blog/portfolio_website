@@ -1,9 +1,30 @@
 /**  responsive design  start*/
 /** table */
 @media (min-width: 768px) {
+  /** nav part start */
+  .navbar__area .navbar .hamburger .fa-bars {
+    display: none;
+  }
   .navbar__area .navbar__right {
     display: block;
+    text-align: right;
   }
+  .navbar__area .navbar__right .list {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  .navbar__area .navbar__right .list__items {
+    margin: 0;
+  }
+
+  .navbar__area .navbar__right .block {
+    display: none;
+  }
+  .navbar__area .navbar__right .block__K {
+    display: none;
+  }
+  /** hero part start */
   .hero__area {
     padding: 8rem 0.5rem 0 0.5rem;
     height: 100vh;
@@ -92,7 +113,7 @@
     margin: 0 0;
   }
   .certificatates__area .certificate__area .details__title {
-    padding: 1rem 0;
+    margin: auto 0;
   }
   .certificatates__area .certificate__area .details__title--button {
     position: absolute;
@@ -137,6 +158,15 @@
   body {
     width: 1024px;
     margin: 0 auto;
+  }
+
+  /** nav part start */
+
+  .navbar__area .navbar__right .block {
+    display: block;
+  }
+  .navbar__area .navbar__right .block__K {
+    display: block;
   }
   /** hero part */
   .hero__area .hero__right {
