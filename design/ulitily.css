@@ -106,3 +106,43 @@
   gap: 1rem;
   justify-content: center;
 }
+
+/** before and after */
+
+.navbar__area .navbar__right .list__items--links:before,
+.footer .footer__left .footer__left--social:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transform: scaleY(2);
+  transition: 1s;
+  border-top: 2px solid crimson;
+  border-bottom: 2px solid crimson;
+}
+.navbar__area .navbar__right .list__items--links:hover:before,
+footer .footer__left .footer__left--social:hover:before {
+  transform: scaleY(1.2);
+  opacity: 1;
+}
+.navbar__area .navbar__right .list__items--links:after,
+footer .footer__left .footer__left--social:after {
+  content: "";
+  background: crimson;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: 1s;
+  transform: 1s;
+  transform: scale(0);
+  z-index: -1;
+}
+.navbar__area .navbar__right .list__items--links:hover:after,
+footer .footer__left .footer__left--social:hover:after {
+  transform: scale(1);
+}

@@ -145,6 +145,13 @@
     justify-content: space-between;
     gap: 2rem;
   }
+  /** footer part */
+
+  .footer .footer__left .footer__left--social {
+    padding: 0.5rem;
+    font-size: 1rem;
+    margin: auto 0.5rem;
+  }
 }
 /** desktop */
 @media (min-width: 1024px) {
